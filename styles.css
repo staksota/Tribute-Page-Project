@@ -1,0 +1,40 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Verdana, sans-serif;
+  color: white;
+  padding: 10px;
+  background: linear-gradient(#312B58, #130281, #312B58);
+}
+
+h1, p, figcaption {
+  max-width: 600px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#img-div {
+  display: grid;
+  justify-content: center;
+}
+
+#tribute-info {
+  max-width: 600px;
+  margin-inline: auto;
+  text-align: justify;
+}
+
+#tribute-link {
+  color: rgb(170, 120, 120);
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  color: white;
+  font-weight: bold;
+}
